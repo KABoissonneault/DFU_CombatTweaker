@@ -1,0 +1,13 @@
+{
+    "ModTitle": "Combat Tweaker",
+    "ModVersion": "0.1",
+    "ModAuthor": "Kab the Bird Ranger",
+    "ContactInfo": "kaboissonneault@gmail.com",
+    "DFUnity_Version": "0.11.1",
+    "ModDescription": "Exposes and lets you tweak the many constant values used combat formulas",
+    "GUID": "df6dc6a4-bf39-4623-8d20-16072f25e19f",
+    "Files": [
+        "Assets/Game/Mods/DFU_CombatTweaker/Scripts/CombatTweaker.cs",
+        "Assets/Game/Mods/DFU_CombatTweaker/modsettings.json"
+    ]
+}

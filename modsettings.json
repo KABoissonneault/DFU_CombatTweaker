@@ -1,0 +1,105 @@
+{
+    "Version": "1",
+    "Sections": [
+        {
+            "Name": "StrengthDamageModifier",
+            "Description": "Values for the strength damage modifier formula",
+            "IsAdvanced": false,
+            "Keys": [
+                {
+                    "Value": false,
+                    "Name": "Enabled",
+                    "Description": "Whether to tweak the strength damage modifier formula (ie: DamageModifier)",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                },
+                {
+                    "Value": {
+                        "First": 0.2,
+                        "Second": -10.0
+                    },
+                    "Name": "LinearParameters",
+                    "Description": "Scale and base of the damage modifier relative to strength value",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.TupleFloatKey"
+                }
+            ],
+            "$version": "v1"
+        },
+        {
+            "Name": "MaxEncumbrance",
+            "Description": "Values for the strength-based max encumbrance formula",
+            "IsAdvanced": false,
+            "Keys": [
+                {
+                    "Value": false,
+                    "Name": "Enabled",
+                    "Description": "Whether to tweak the  formula (ie: MaxEncumbrance)",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                },
+                {
+                    "Value": {
+                        "First": 1.5,
+                        "Second": 0.0
+                    },
+                    "Name": "LinearParameters",
+                    "Description": "Scale and base of the max encumbrance relative to strength value",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.TupleFloatKey"
+                }
+            ],
+            "$version": "v1"
+        },
+        {
+            "Name": "HandToHandMinDamage",
+            "Description": "Values for the hand-to-hand minimum damage formula",
+            "IsAdvanced": false,
+            "Keys": [
+                {
+                    "Value": false,
+                    "Name": "Enabled",
+                    "Description": "Whether to tweak the hand-to-hand minimum formula (ie: CalculateHandToHandMinDamage)",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                },
+                {
+                    "Value": {
+                        "First": 0.1,
+                        "Second": 1.0
+                    },
+                    "Name": "LinearParameters",
+                    "Description": "Scale and base of the minimum damage relative to skill level ",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.TupleFloatKey"
+                }
+            ],
+            "$version": "v1"
+        },
+        {
+            "Name": "HandToHandMaxDamage",
+            "Description": "Values for the hand-to-hand maximum damage formula",
+            "IsAdvanced": false,
+            "Keys": [
+                {
+                    "Value": false,
+                    "Name": "Enabled",
+                    "Description": "Whether to tweak the hand-to-hand maximum formula (ie: CalculateHandToHandMaxDamage)",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ToggleKey"
+                },
+                {
+                    "Value": {
+                        "First": 0.2,
+                        "Second": 1.0
+                    },
+                    "Name": "LinearParameters",
+                    "Description": "Scale and base of the maximum damage relative to skill level",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.TupleFloatKey"
+                }
+            ],
+            "$version": "v1"
+        }
+    ]
+}
